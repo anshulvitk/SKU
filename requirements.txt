@@ -1,0 +1,45 @@
+==================================================
+
+Shri Krishna University ERP
+
+Requirements File
+
+==================================================
+
+This project uses only Python Standard Library.
+
+No third-party Python packages are required.
+
+Compatible Python Version:
+
+Python 3.10+
+
+Recommended: Python 3.11 or Python 3.12
+
+Standard Library Modules Used:
+
+- json
+
+- os
+
+- sqlite3
+
+- datetime
+
+- http.server
+
+- pathlib
+
+- urllib.parse
+
+- socket
+
+==================================================
+
+If deploying with Gunicorn (Render/Railway/Linux),
+
+uncomment the line below:
+
+gunicorn>=23.0.0
+
+==================================================
